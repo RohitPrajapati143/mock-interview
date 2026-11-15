@@ -160,4 +160,7 @@ app.post("/interview", async (req, res) => {
 });
 
 const PORT = process.env.PORT || 5000;
+app.get("/", (req, res) => {
+  res.send("Mock Interview Backend is Running!");
+});
 app.listen(PORT, () => console.log("Server running on port " + PORT));
