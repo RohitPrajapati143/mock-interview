@@ -4,7 +4,7 @@ import "./App.css";
 const API = "http://localhost:5000";
 const TOTAL = 5;
 const SITE_NAME = "AI Mock Interview";
-const OWNER = ":-Rohit Prajapati-Software Engineer";
+const OWNER = ":-Rohit Prajapati";
 
 const ROLES = [
 "Java Developer",
@@ -13,6 +13,7 @@ const ROLES = [
 "Full Stack Developer",
 "Frontend Developer (React)",
 "Data Analyst"
+"Other"
 ];
 
 function renderText(text) {
