@@ -12,7 +12,7 @@ const ROLES = [
 "Backend Developer (Java/Spring Boot)",
 "Full Stack Developer",
 "Frontend Developer (React)",
-"Data Analyst"
+"Data Analyst",
 "Other"
 ];
 
