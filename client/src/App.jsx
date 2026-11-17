@@ -418,7 +418,7 @@ export default function App() {
             </section>
 
             <section className="card">
-              <h3><span className="num">2</span> Upload your resume <small>(required)</small></h3>
+              <h3><span className="num">2</span> Upload your resume</h3>
               <label
                 className={
                   "drop" + (dragOver ? " over" : "") + (resumeStatus === "ready" ? " ok" : "")
@@ -477,7 +477,7 @@ export default function App() {
             </section>
 
             <section className="card">
-              <h3><span className="num">3</span> Camera and microphone <small>(required)</small></h3>
+              <h3><span className="num">3</span> Camera and microphone </h3>
               <Toggle
                 on={camReady}
                 onClick={allowCamera}
